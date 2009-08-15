@@ -73,6 +73,7 @@
     <remove-project name="platform/packages/apps/Launcher" />
     <remove-project name="platform/packages/apps/Mms" />
     <remove-project name="platform/packages/apps/Music" />
+    <remove-project name="platform/packages/apps/GoogleSearch" />
 
     <remove-project name="platform/packages/apps/Phone" />
     <remove-project name="platform/packages/apps/Settings" />
