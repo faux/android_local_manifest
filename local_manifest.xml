@@ -50,7 +50,7 @@
     <project path="system/extras" name="platform/system/extras" revision="refs/heads/donut" />
     <project path="external/qemu" name="platform/external/qemu" revision="refs/heads/donut" />
     <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="refs/heads/donut" />
-    <project path="packages/external/googleclient" name="platform/external/googleclient" revision="refs/heads/donut" />
+    <project path="external/googleclient" name="platform/external/googleclient" revision="refs/heads/donut" />
     <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="refs/heads/donut" />
 
     <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" revision="refs/heads/donut" />
