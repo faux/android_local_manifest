@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" fetch="git://github.com/" />
+    <remote name="gitorious" fetch="git://gitorious.org" />
+
+    <project path="external/flac" name="kruton/android_external_flac" remote="github" revision="refs/heads/master" />
+
+    <!--
+    <project path="external/openobex" name="android-obex/openobex" remote="gitorious" revision="refs/heads/master" />
+    <project path="external/obexpushd" name="android-obex/obexpushd" remote="gitorious" revision="refs/heads/master" />
+    <project path="external/obexftp" name="android-obex/obexftp" remote="gitorious" revision="refs/heads/master" />
+    -->
+
+    <remove-project name="platform/dalvik" />
+    <remove-project name="platform/external/zlib" />
+
+    <remove-project name="platform/prebuilt" />
+    <remove-project name="platform/external/webkit" />
+    <remove-project name="platform/external/ppp" />
+    <remove-project name="platform/external/wpa_supplicant" />
+    <remove-project name="platform/system/wlan/ti" />
+    <remove-project name="platform/external/skia" />
+    <remove-project name="platform/external/elfcopy" />
+    <remove-project name="platform/external/dhcpcd" />
+    <remove-project name="platform/external/dbus" />
+
+    <remove-project name="platform/external/bluez" />
+    <remove-project name="platform/system/extras" />
+    <remove-project name="platform/external/qemu" />
+    <remove-project name="platform/packages/providers/MediaProvider" />
+    <remove-project name="platform/external/googleclient" />
+    <remove-project name="platform/packages/apps/Calendar" />
+    <remove-project name="platform/bionic" />
+    <remove-project name="platform/frameworks/opt/com.google.android" />
+    <remove-project name="platform/frameworks/opt/com.google.android.googlelogin" />
+
+    <project path="dalvik" name="platform/dalvik" revision="refs/heads/donut" />
+    <project path="external/zlib" name="platform/external/zlib" revision="refs/heads/donut" />
+    <project path="prebuilt" name="platform/prebuilt" revision="refs/heads/donut" />
+    <project path="external/webkit" name="platform/external/webkit" revision="refs/heads/donut" />
+    <project path="external/ppp" name="platform/external/ppp" revision="refs/heads/donut" />
+    <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="refs/heads/donut" />
+    <project path="external/skia" name="platform/external/skia" revision="refs/heads/donut" />
+    <project path="external/elfcopy" name="platform/external/elfcopy" revision="refs/heads/donut" />
+
+    <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="refs/heads/donut" />
+    <project path="external/dbus" name="platform/external/dbus" revision="refs/heads/donut" />
+    <project path="external/bluez" name="platform/external/bluez" revision="refs/heads/donut" />
+    <project path="system/wlan/ti" name="platform/system/wlan/ti" revision="refs/heads/donut" />
+    <project path="system/extras" name="platform/system/extras" revision="refs/heads/donut" />
+    <project path="external/qemu" name="platform/external/qemu" revision="refs/heads/donut" />
+    <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="refs/heads/donut" />
+    <project path="packages/external/googleclient" name="platform/external/googleclient" revision="refs/heads/donut" />
+    <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="refs/heads/donut" />
+
+    <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" revision="refs/heads/donut" />
+    <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" revision="refs/heads/donut" />
+
+    <project path="external/mtpd" name="platform/external/mtpd" revision="refs/heads/donut" />
+    <project path="external/junit" name="platform/external/junit" revision="refs/heads/donut" />
+    <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="refs/heads/donut" />
+
+    <remove-project name="platform/bootable/recovery" />
+    <remove-project name="platform/build" />
+    <remove-project name="platform/external/opencore" />
+
+    <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/policies/base" />
+    <remove-project name="platform/packages/apps/AlarmClock" />
+    <remove-project name="platform/packages/apps/Browser" />
+    <remove-project name="platform/packages/apps/Contacts" />
+    <remove-project name="platform/packages/apps/Email" />
+    <remove-project name="platform/packages/apps/Launcher" />
+    <remove-project name="platform/packages/apps/Mms" />
+    <remove-project name="platform/packages/apps/Music" />
+
+    <remove-project name="platform/packages/apps/Phone" />
+    <remove-project name="platform/packages/apps/Settings" />
+    <remove-project name="platform/system/core" />
+    <remove-project name="platform/development" />
+
+    <remove-project name="platform/vendor/htc/dream-open" />
+    <remove-project name="platform/hardware/msm7k" />
+
+    <project path="bootable/recovery" name="cyanogen/android_bootable_recovery" revision="refs/heads/master" remote="github" />
+    <project path="build" name="cyanogen/android_build" revision="refs/heads/master" remote="github" />
+    <project path="external/opencore" name="cyanogen/android_external_opencore" revision="refs/heads/master" remote="github" />
+    <project path="frameworks/base" name="cyanogen/android_frameworks_base" revision="refs/heads/master" remote="github" />
+
+    <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" revision="refs/heads/master" remote="github" />
+    <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" revision="refs/heads/master" remote="github" />
+    <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" revision="refs/heads/master" remote="github" />
+    <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" revision="refs/heads/master" remote="github" />
+    <project path="packages/apps/Email" name="cyanogen/android_packages_apps_Email" revision="refs/heads/master" remote="github" />
+    <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" revision="refs/heads/master" remote="github" />
+    <project path="packages/apps/Mms" name="cyanogen/android_packages_apps_Mms" revision="refs/heads/master" remote="github" />
+    <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" revision="refs/heads/master" remote="github" />
+    <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" revision="refs/heads/master" remote="github" />
+
+    <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" revision="refs/heads/master" remote="github" />
+    <project path="system/core" name="cyanogen/android_system_core" revision="refs/heads/master" remote="github" />
+    <project path="development" name="cyanogen/android_development" revision="refs/heads/master" remote="github" />
+    <project path="bionic" name="cyanogen/android_bionic" revision="refs/heads/master" remote="github" />
+
+    <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="refs/heads/master" />
+    <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/heads/cupcake" />
+    
+</manifest>
+
