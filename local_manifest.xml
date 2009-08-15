@@ -97,6 +97,9 @@
     <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" revision="refs/heads/master" remote="github" />
     <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" revision="refs/heads/master" remote="github" />
 
+    <project path="packages/apps/GlobalSearch" name="cyanogen/android_packages_apps_GlobalSearch" revision="refs/heads/master" remote="github" />
+    <project path="packages/apps/GoogleSearch" name="cyanogen/android_packages_apps_GoogleSearch" revision="refs/heads/master" remote="github" />
+
     <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" revision="refs/heads/master" remote="github" />
     <project path="system/core" name="cyanogen/android_system_core" revision="refs/heads/master" remote="github" />
     <project path="development" name="cyanogen/android_development" revision="refs/heads/master" remote="github" />
