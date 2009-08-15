@@ -1,0 +1,3 @@
+local_manifest.xml
+------------------
+this is used by repo to include and exclude projects for the local build
