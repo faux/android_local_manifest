@@ -4,11 +4,11 @@
     <remote name="gitorious" fetch="git://gitorious.org" />
 
     <project path="external/flac" name="kruton/android_external_flac" remote="github" revision="refs/heads/master" />
-
+<!--
     <project path="external/openobex" name="android-obex/openobex" remote="gitorious" revision="refs/heads/master" />
     <project path="external/obexpushd" name="android-obex/obexpushd" remote="gitorious" revision="refs/heads/master" />
     <project path="external/obexftp" name="android-obex/obexftp" remote="gitorious" revision="refs/heads/master" />
-
+-->
     <remove-project name="platform/dalvik" />
     <remove-project name="platform/external/zlib" />
     <remove-project name="platform/prebuilt" />
